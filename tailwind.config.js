@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xs: '200px',
+        xs: '100px',
       },
       animation: {
         text: 'text 5s ease infinite',
