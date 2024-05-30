@@ -4,7 +4,7 @@ const Features = ()=>{
         <div className="my-24 md:px-24 px-4 mx-auto" id="feature">
             <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
                 <motion.div 
-                 initial={{ x: -150}}
+                 initial={{ x: -310}}
                  whileInView={{ x: 0 }}
                  viewport={{ once: true }}
                  transition={{type:"tween", bounce: 0.1, duration: 1 }}

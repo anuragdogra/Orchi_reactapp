@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 const Footer = ()=>{
     return(
         <div className="w-full bg-pink-600 md:px-14 mt-40 max-w-screen-3xl mx-auto text-white py-8">
-          <div className=" my-14 space-y-5 flex flex-col md:flex-row px-16">
+          <div className=" my-14 space-y-5 flex flex-col  md:flex-row xs:px-3 px-16">
             <div className="md:w-1/2 space-y-8">
             <motion.span  initial={{ y:'-100vw' }} animate={{scale:1.3,y:-8,  }} transition={{type:"tween",duration:.8}} className="text-3xl">𝕺𝖈𝖍𝖎</motion.span>
             <p className=" md:w-[300px] leading-normal">A simple paragraph is comprised of three major components. The first sentence,
@@ -11,7 +11,7 @@ const Footer = ()=>{
                 <input type="email" name="email" id="email" placeholder="your email"
                 className="bg-blue-100 py-2 px-4 rounded-md  focus:outline-none"/>
                 <input type="submit" value="subscribe"
-                className="px-4 py-2 bg-pink-400 rounded-md -ml-2  cursor-pointer hover:bg-pink-200 hover:text-black duration-300 transition-all" />
+                className="px-4 py-2 bg-pink-400 rounded-md xs:mt-4  xs:-ml-2  cursor-pointer hover:bg-pink-200 hover:text-black duration-300 transition-all" />
             </div>
             </div>
            
